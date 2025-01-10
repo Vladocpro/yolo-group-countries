@@ -27,7 +27,7 @@ const CountriesTable: FC<Props> = ({countries, loading, error, goToPreviousPage,
 
    if (error != null) {
       return (
-          <div className="text-2xl text-white bg-red-600 my-6 py-5 rounded-md">
+          <div className="text-2xl text-center text-white bg-red-600 my-6 py-5 rounded-md">
              Error: {error || 'Sorry, something went wrong!'}
           </div>
       )
@@ -35,7 +35,7 @@ const CountriesTable: FC<Props> = ({countries, loading, error, goToPreviousPage,
 
    if (countries.length === 0 && !loading) {
       return (
-          <div className="text-2xl text-white bg-red-600 my-6 py-5 rounded-md">
+          <div className="text-2xl text-center text-white bg-red-600 my-6 py-5 rounded-md">
              Sorry, we could not find any countries
           </div>
       )
