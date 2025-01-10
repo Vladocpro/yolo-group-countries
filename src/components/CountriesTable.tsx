@@ -57,7 +57,7 @@ const CountriesTable: FC<Props> = ({countries, loading, error, goToPreviousPage,
                  <span className="text-left">
                     {country.name}
                  </span>
-                    <span className="text-main group-hover:text-white rounded-lg">
+                    <span className="text-main text-center group-hover:text-white rounded-lg">
                     {country.code}
                  </span>
                  </div>
